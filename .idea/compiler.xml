@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gulimall_coupon" />
+        <module name="gulimall_third_party" />
+        <module name="renren-generator" />
+        <module name="gulimall_product" />
+        <module name="gulimall_member" />
+        <module name="gulimall_gateway" />
+        <module name="gulimall_ware" />
+        <module name="renren-fast" />
+        <module name="gulimall_order" />
+        <module name="gulimall-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="guliMall" target="1.8" />
+      <module name="gulimall-common" target="1.8" />
+      <module name="gulimall_coupon" target="1.8" />
+      <module name="gulimall_gateway" target="1.8" />
+      <module name="gulimall_member" target="1.8" />
+      <module name="gulimall_order" target="1.8" />
+      <module name="gulimall_product" target="1.8" />
+      <module name="gulimall_third_party" target="1.8" />
+      <module name="gulimall_ware" target="1.8" />
+      <module name="renren-fast" target="1.8" />
+      <module name="renren-generator" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gulimall_coupon" options="-parameters" />
+      <module name="gulimall_gateway" options="-parameters" />
+      <module name="gulimall_member" options="-parameters" />
+      <module name="gulimall_order" options="-parameters" />
+      <module name="gulimall_product" options="-parameters" />
+      <module name="gulimall_third_party" options="-parameters" />
+      <module name="gulimall_ware" options="-parameters" />
+      <module name="renren-fast" options="-parameters" />
+      <module name="renren-generator" options="-parameters" />
+    </option>
+  </component>
+</project>
